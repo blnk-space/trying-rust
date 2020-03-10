@@ -6,7 +6,7 @@ fn main() {
   let mut first = String::new();
   io::stdin().read_line(&mut first).unwrap();
 
-  let mut a:u32;
+  let a:u32;
   match first.trim().parse() {
     Ok(val) => {
       a = val;
@@ -18,7 +18,7 @@ fn main() {
   }
 
   println!("Enter second number");
-  let mut second = String::new();
+  let second = String::new();
   io::stdin().read_line(&mut second).unwrap();
 
   let mut b:u32;
